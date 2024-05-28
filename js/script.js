@@ -38,6 +38,7 @@ const renderPokemon = async (pokemon) => {
         pokemonImage.style.display = 'none';
     }
 }
+renderPokemon('1');
 
 form.addEventListener('submit', (event) =>{
     event.preventDefault();
